@@ -27,7 +27,6 @@ jobs:
       - name: '运行 【快手果园】'
         if: env.KS_COOKIE
         run: |
-          cd ~/Scripts
           node ks_fruit.js
         env:
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
