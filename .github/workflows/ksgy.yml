@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/kaixinjiuhao118/github_Sunert_Scripts.git
+          git clone https://github.com/kaixinjiuhao118/github_Sunert_Scripts.git ~/Scripts
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
